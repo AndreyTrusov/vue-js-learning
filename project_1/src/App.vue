@@ -3,23 +3,26 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import TestComponent from './components/TestComponent.vue'
 import Calculus from '@/components/Calculus.vue'
+import NewComponent from '@/components/newComponent.vue'
+import Comp_2 from '@/components/comp_2.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <!--    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />-->
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" /> <!-- neparovy tag -->
+      <!--      <HelloWorld msg="You did it!" /> &lt;!&ndash; neparovy tag &ndash;&gt;-->
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+      <!--      <nav>-->
+      <!--        <RouterLink to="/">Home</RouterLink>-->
+      <!--        <RouterLink to="/about">About</RouterLink>-->
+      <!--      </nav>-->
 
-      <test-component/> <!-- neparovy tag ( nevyziaduje ziadne hodnoty-->
-      <calculus/>
-
+      <!--      <test-component/> &lt;!&ndash; neparovy tag ( nevyziaduje ziadne hodnoty&ndash;&gt;-->
+      <!--      <calculus/>-->
+      <!--      <new-component/>-->
+      <comp_2 />
     </div>
   </header>
 
