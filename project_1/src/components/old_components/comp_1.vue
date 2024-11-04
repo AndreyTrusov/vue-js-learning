@@ -2,7 +2,13 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'comp_1'
+  name: 'comp_1',
+  props: {
+    parentMessage:{
+      type:String,
+      required:true
+    }
+  }
 })
 </script>
 
