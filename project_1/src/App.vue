@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/old_components/HelloWorld.vue'
-import TestComponent from './components/old_components/TestComponent.vue'
-import Calculus from '@/components/old_components/Calculus.vue'
-import NewComponent from '@/components/old_components/newComponent.vue'
-import Comp_2 from '@/components/old_components/comp_2.vue'
 </script>
 
 <template>
@@ -17,13 +13,10 @@ import Comp_2 from '@/components/old_components/comp_2.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/components">Components</RouterLink>
       </nav>
 
-      <test-component /> <!-- neparovy tag ( nevyziaduje ziadne hodnoty-->
-      <calculus />
-      <new-component />
 
-      <comp_2 />
     </div>
   </header>
 

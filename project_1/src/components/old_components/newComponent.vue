@@ -5,6 +5,7 @@ export default defineComponent({
   name: 'newComponent',
   data() {
     return {
+      username: "",
       aaa: true,
       name: '',
       age: 0,
@@ -75,6 +76,7 @@ export default defineComponent({
 </script>
 
 <template>
+  <RouterLink :to="'/a-component/ + username'"></RouterLink>
   <div>
 <!--    <button @click="toggle">Toggle</button>-->
 

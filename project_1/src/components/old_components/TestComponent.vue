@@ -10,6 +10,11 @@ export default defineComponent({
       surname: 'Trusov'
     }
   },
+  watch:{
+    surnameMessage(newValue, oldValue){
+      console.log("povodna " + oldValue + " nova " + newValue);
+    }
+  },
   methods: {
     increment() {
       this.number++

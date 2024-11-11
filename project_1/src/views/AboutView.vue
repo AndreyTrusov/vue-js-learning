@@ -1,6 +1,14 @@
+<script setup lang="ts">
+import Parent from '../components/Parent.vue'
+
+</script>
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+<!--    <h1>About page content</h1><hr>-->
+    <parent/>
+  </div>
+  <div>
+    <parent/>
   </div>
 </template>
 
