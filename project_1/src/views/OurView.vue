@@ -1,12 +1,18 @@
 <script lang="ts">
-import { defineComponent } from 'vue'
 import NewComponent from '@/components/old_components/newComponent.vue'
 import TestComponent from '@/components/old_components/TestComponent.vue'
 import Calculus from '@/components/old_components/Calculus.vue'
+import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'OurView',
   components: { Calculus, TestComponent, NewComponent }
+  // props:{
+  //   username: {
+  //     type: String,
+  //     required: true,
+  //   }
+  // }
 })
 </script>
 
